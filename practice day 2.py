@@ -27,3 +27,5 @@ if 'hello' not in txt:
 print(name[2:8]) #will start from 2 end on 8
 print(name[:8]) #will start from 0
 print(name[3:]) #will print till end
+
+print(name)
