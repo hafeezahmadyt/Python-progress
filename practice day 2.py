@@ -30,3 +30,12 @@ print(name[3:]) #will print till end
 
 print(name)
 name1 = 'hello'  
+
+#Upper and Lower
+print(name.upper())
+print(name.lower())
+
+#More Methods with string
+print(name.strip()) #Removes spaces Str and End
+print(name.replace('hafeez','m'))
+print(name.split("a")) #splits the string where "a" is located
