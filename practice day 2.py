@@ -29,3 +29,4 @@ print(name[:8]) #will start from 0
 print(name[3:]) #will print till end
 
 print(name)
+name1 = 'hello'  
