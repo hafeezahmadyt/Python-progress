@@ -61,3 +61,15 @@ print(10+23-23+10) #As + and -  has same precednce therefor it will work from le
 myFirstList = ['data1','data2','data3']
 print(myFirstList)
 print(type(myFirstList))
+print(myFirstList[1]) #index
+print(myFirstList[0:2]) #range 0 will  be included 2 will not
+#adding item in list
+myFirstList[2]='new data'
+print(myFirstList)
+
+#adding with range
+CompanyName=['Xiaomi','apple','samsung','oppo']
+CompanyName[1:3]=['samsung','apple','Qmobile']
+print(CompanyName)
+CompanyName.insert(1,'Lenovo')
+print(CompanyName)
