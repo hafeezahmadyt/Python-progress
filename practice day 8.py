@@ -74,3 +74,9 @@ print(mydic)
 print(mydic['name'])
 print(len(mydic))
 
+ndict = {'names': ['hafeez','aziz','anees']}
+print(ndict['names'])
+print(ndict.get('names'))#works just above
+
+#keys() method will return list of all keys in the dictionary
+print()
