@@ -50,3 +50,25 @@ print("A") if a>b else print("b")
 
 #with three conditions
 print('A') if a>b else print('B') if a==b else print('c')
+
+#And statement
+if a>b and b<a:
+    print('yes a is bigger')
+
+#Not statement 
+if not a > b:
+    print('a is not greater')
+
+#Nested if
+x = 31
+if x > 10:
+    print('Above ten')
+    if x > 20:
+        print('and also above 20')
+    else:
+        print('but not above 20.')
+
+#pass statement
+if b < a: # having an empty if statement like this, would raise an error without the pass statement
+
+    pass
