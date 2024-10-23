@@ -79,4 +79,48 @@ print(ndict['names'])
 print(ndict.get('names'))#works just above
 
 #keys() method will return list of all keys in the dictionary
-print()
+print(mydic.keys())
+mydic['Phone']='123'
+mydic['Phone']='123'
+
+print(mydic.keys()) #it will print all keys
+print(mydic)
+print(mydic.values())#it will print all values
+print(mydic.items()) #it will return all info in form of list 
+
+#check if specified key is available in dictionary
+if 'name' in mydic:
+    print('available')
+else:
+    print('Not Available')    
+
+#we can change/update key value in Dict
+mydic['name']='aziz'
+print(mydic)
+
+#we can also use Update() method to update existing values
+mydic.update({'name':'hafeez'})
+print(mydic['name'])
+
+#remove items from Dict
+
+mydic.pop('name')
+print(mydic)
+
+#popitem() is used to  remove last item of dict
+mydic.popitem()
+
+#loop in dict
+for x in mydic:
+    print(x) #it will print all keys in Dict
+
+for x in mydic:
+    print(mydic[x])
+
+#we can use values method to retur values
+for x in mydic.values():
+    print(x)    
+
+#we can loop throug both by using item()
+for x in mydic.items():
+    print(x)
