@@ -26,4 +26,15 @@ class MyClass:
 
 #lets create object of it
 p1 = MyClass()
-print(p1.x) 
+print(p1.x)
+
+
+class person:
+ def __init__(self,name,age):
+  self.name =  name
+  self.age  = age
+  
+p1 = person('john',34)
+
+print(p1.name,p1.age)
+print(p1)
