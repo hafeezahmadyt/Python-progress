@@ -29,11 +29,21 @@
 #print(num)
 
 #User will input cost and selling price and will say if loss or profit
-cost = input('Enter cost : ')
-sell = input('Enter Selling rate : ')
-if cost>sell:
-    acc = int(sell) - int(cost)
-    print(f'You  loss {acc}')
-else:
-    acc = int(sell) - int(cost)
-    print(f'You  profited {acc}')
+# cost = input('Enter cost : ')
+# sell = input('Enter Selling rate : ')
+# if cost>sell:
+#     acc = int(sell) - int(cost)
+#     print(f'You  loss {acc}')
+# else:
+#     acc = int(sell) - int(cost)
+#     print(f'You  profited {acc}')
+
+#Check if the given number is even or odd
+def check_even_odd(number):
+    if number % 3  == 1:
+        print('Even')
+    else:
+        print('odd')
+
+UserInput = int(input('Enter the Number : '))
+check_even_odd(UserInput)        
